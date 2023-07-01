@@ -1,0 +1,54 @@
+@font-face {
+    font-family: PS;
+    src: url(PressStart2P-Regular.ttf);
+}
+.font{
+    font-family:PS,serif;
+}
+#heading{
+    text-align:center;
+   
+}
+#myCanvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:double;
+    border-width:thick;
+    border-color:black;
+}
+#id{
+
+    font-size: larger;
+}
+.actionbutton{
+    background-color:white;
+color:black;
+border-color:black;
+/* font-family:'Press Start 2P',serif; */
+font-size:10px;
+text-align:center;
+    height:50px;
+    width:80px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
+#reset{
+    float:right;
+    height:40px;
+    width:80px;
+    margin-bottom: 5px;
+}
+#footer{
+  
+    vertical-align: middle;
+}
+/* #resett{
+    margin: 1% 1% 1% 1%;
+} */
+
+
